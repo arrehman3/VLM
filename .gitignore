@@ -1,0 +1,69 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directory
+venv/
+env/
+.env/
+*.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Streamlit temporary files
+*.streamlit/
+
+# Local configuration files
+*.local
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env/
+*.env
+
+# Streamlit secrets
+.secrets.toml
+
+# Cache files for pip and other dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Dataset or data storage files
+data/
+*.csv
+*.json
+*.h5
+*.tsv
+
+# Model training outputs (e.g., logs or checkpoints)
+checkpoints/
+outputs/
+
+# Other unnecessary system files
+*.bak
+*.tmp
